@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Value from build type: debug -->
+    <string name="FRONTEND_HOST" translatable="false">open-event-fe.netlify.com</string>
+    <!-- Value from build type: debug -->
+    <string name="default_base_url" translatable="false">"http://192.168.1.183:8080/v1/"</string>
+    <!-- Value from default config. -->
+    <string name="FACEBOOK_ID" translatable="false">eventyay</string>
+    <!-- Value from default config. -->
+    <string name="TWITTER_ID" translatable="false">eventyay</string>
+    <!-- Value from default config. -->
+    <string name="YOUTUBE_ID" translatable="false">UCQprMsG-raCIMlBudm20iLQ</string>
+
+</resources>

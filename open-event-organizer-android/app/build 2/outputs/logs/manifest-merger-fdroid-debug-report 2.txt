@@ -1,0 +1,874 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:11:5-93:19
+MERGED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:11:5-93:19
+MERGED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:11:5-93:19
+MERGED from [com.github.Ilhasoft:data-binding-validator:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/1f4ba0391fa70a4696459dd5d78bcb46/transformed/jetified-data-binding-validator-2.0.0/AndroidManifest.xml:11:5-13:38
+MERGED from [com.github.Ilhasoft:data-binding-validator:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/1f4ba0391fa70a4696459dd5d78bcb46/transformed/jetified-data-binding-validator-2.0.0/AndroidManifest.xml:11:5-13:38
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/ce76169aea0922d4c6155ba826b2b4a5/transformed/jetified-leakcanary-android-2.0-alpha-1/AndroidManifest.xml:22:5-30:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/ce76169aea0922d4c6155ba826b2b4a5/transformed/jetified-leakcanary-android-2.0-alpha-1/AndroidManifest.xml:22:5-30:19
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] /Users/davidmainanjau/.gradle/caches/transforms-3/163e90b14677034224893c4fe5094aa3/transformed/jetified-stetho-okhttp3-1.5.1/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] /Users/davidmainanjau/.gradle/caches/transforms-3/163e90b14677034224893c4fe5094aa3/transformed/jetified-stetho-okhttp3-1.5.1/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.1] /Users/davidmainanjau/.gradle/caches/transforms-3/24f9176b7d6cc9eb48ce01d371e586d0/transformed/jetified-stetho-1.5.1/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.1] /Users/davidmainanjau/.gradle/caches/transforms-3/24f9176b7d6cc9eb48ce01d371e586d0/transformed/jetified-stetho-1.5.1/AndroidManifest.xml:11:5-20
+MERGED from [com.github.blikoon:QRCodeScanner:0.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/b2b8265bf33a9cc7818a4a952a835929/transformed/jetified-QRCodeScanner-0.1.2/AndroidManifest.xml:11:5-17:19
+MERGED from [com.github.blikoon:QRCodeScanner:0.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/b2b8265bf33a9cc7818a4a952a835929/transformed/jetified-QRCodeScanner-0.1.2/AndroidManifest.xml:11:5-17:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] /Users/davidmainanjau/.gradle/caches/transforms-3/c7e20ebe5147a6614630ef3ddb67b7be/transformed/jetified-mapbox-android-plugin-places-v8-0.9.0/AndroidManifest.xml:9:5-18:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] /Users/davidmainanjau/.gradle/caches/transforms-3/c7e20ebe5147a6614630ef3ddb67b7be/transformed/jetified-mapbox-android-plugin-places-v8-0.9.0/AndroidManifest.xml:9:5-18:19
+MERGED from [com.google.android.material:material:1.2.0-beta01] /Users/davidmainanjau/.gradle/caches/transforms-3/b4de59c90d94e47556a32c00e38d7caa/transformed/material-1.2.0-beta01/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.0-beta01] /Users/davidmainanjau/.gradle/caches/transforms-3/b4de59c90d94e47556a32c00e38d7caa/transformed/material-1.2.0-beta01/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/davidmainanjau/.gradle/caches/transforms-3/515b6850f83c294562678f76d9119789/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/davidmainanjau/.gradle/caches/transforms-3/515b6850f83c294562678f76d9119789/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.github.badoualy:stepper-indicator:1.0.7] /Users/davidmainanjau/.gradle/caches/transforms-3/fc7fd191168e9b25bfac9c43da05022c/transformed/jetified-stepper-indicator-1.0.7/AndroidManifest.xml:12:5-20
+MERGED from [com.github.badoualy:stepper-indicator:1.0.7] /Users/davidmainanjau/.gradle/caches/transforms-3/fc7fd191168e9b25bfac9c43da05022c/transformed/jetified-stepper-indicator-1.0.7/AndroidManifest.xml:12:5-20
+MERGED from [com.timehop.stickyheadersrecyclerview:library:0.4.3] /Users/davidmainanjau/.gradle/caches/transforms-3/db990300fc5e5e0cd5dea8de8cf8cbeb/transformed/jetified-library-0.4.3/AndroidManifest.xml:12:5-20
+MERGED from [com.timehop.stickyheadersrecyclerview:library:0.4.3] /Users/davidmainanjau/.gradle/caches/transforms-3/db990300fc5e5e0cd5dea8de8cf8cbeb/transformed/jetified-library-0.4.3/AndroidManifest.xml:12:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/davidmainanjau/.gradle/caches/transforms-3/7cd1d140276481f0d996530993d9e602/transformed/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/davidmainanjau/.gradle/caches/transforms-3/7cd1d140276481f0d996530993d9e602/transformed/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:27:5-121:19
+MERGED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:27:5-121:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-alpha04] /Users/davidmainanjau/.gradle/caches/transforms-3/4e1b11d5d65d44bf3cea73684389d28e/transformed/lifecycle-extensions-2.2.0-alpha04/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-alpha04] /Users/davidmainanjau/.gradle/caches/transforms-3/4e1b11d5d65d44bf3cea73684389d28e/transformed/lifecycle-extensions-2.2.0-alpha04/AndroidManifest.xml:24:5-25:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:28:5-72:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:28:5-72:19
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/davidmainanjau/.gradle/caches/transforms-3/46bda4f3c3edc6c169a85ab38ff04884/transformed/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/davidmainanjau/.gradle/caches/transforms-3/46bda4f3c3edc6c169a85ab38ff04884/transformed/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/davidmainanjau/.gradle/caches/transforms-3/5e65da3b6fe3f1b414c9d37078868a54/transformed/jetified-glide-4.8.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/davidmainanjau/.gradle/caches/transforms-3/5e65da3b6fe3f1b414c9d37078868a54/transformed/jetified-glide-4.8.0/AndroidManifest.xml:10:5-20
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:18:5-28:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:18:5-28:19
+MERGED from [com.squareup.leakcanary:leaksentry:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/69effe9d85b161f03e2ee9fae0a535f1/transformed/jetified-leaksentry-2.0-alpha-1/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.leakcanary:leaksentry:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/69effe9d85b161f03e2ee9fae0a535f1/transformed/jetified-leaksentry-2.0-alpha-1/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.core:core:1.3.1] /Users/davidmainanjau/.gradle/caches/transforms-3/ee4c0c67837848e15acc8ecd3102a363/transformed/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /Users/davidmainanjau/.gradle/caches/transforms-3/ee4c0c67837848e15acc8ecd3102a363/transformed/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha04] /Users/davidmainanjau/.gradle/caches/transforms-3/e8729b90739d93ff815237761216ac87/transformed/jetified-lifecycle-process-2.2.0-alpha04/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha04] /Users/davidmainanjau/.gradle/caches/transforms-3/e8729b90739d93ff815237761216ac87/transformed/jetified-lifecycle-process-2.2.0-alpha04/AndroidManifest.xml:24:5-30:19
+MERGED from [com.github.raizlabs.dbflow:dbflow:4.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/377357baa1343bdfc44d4114e5ea60c6/transformed/jetified-dbflow-4.1.2/AndroidManifest.xml:11:5-20
+MERGED from [com.github.raizlabs.dbflow:dbflow:4.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/377357baa1343bdfc44d4114e5ea60c6/transformed/jetified-dbflow-4.1.2/AndroidManifest.xml:11:5-20
+MERGED from [com.github.raizlabs.dbflow:dbflow-rx2:4.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/2484b993e63aa9af8d592afae2be8d83/transformed/jetified-dbflow-rx2-4.1.2/AndroidManifest.xml:10:5-20
+MERGED from [com.github.raizlabs.dbflow:dbflow-rx2:4.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/2484b993e63aa9af8d592afae2be8d83/transformed/jetified-dbflow-rx2-4.1.2/AndroidManifest.xml:10:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/915af4ebbed5519ba5aab2a4de215be6/transformed/jetified-threetenabp-1.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/915af4ebbed5519ba5aab2a4de215be6/transformed/jetified-threetenabp-1.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.github.vipulasri:Timeline-View:1.0.6] /Users/davidmainanjau/.gradle/caches/transforms-3/657181354de75ab2b3128c16bf04a02e/transformed/jetified-Timeline-View-1.0.6/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.vipulasri:Timeline-View:1.0.6] /Users/davidmainanjau/.gradle/caches/transforms-3/657181354de75ab2b3128c16bf04a02e/transformed/jetified-Timeline-View-1.0.6/AndroidManifest.xml:11:5-15:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/5c03f989b0d1896c597b8347b33928f8/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/5c03f989b0d1896c597b8347b33928f8/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/davidmainanjau/.gradle/caches/transforms-3/a0c9df8eebcfc0f6e4a383f4bbe5c23a/transformed/jetified-gifdecoder-4.8.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/davidmainanjau/.gradle/caches/transforms-3/a0c9df8eebcfc0f6e4a383f4bbe5c23a/transformed/jetified-gifdecoder-4.8.0/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] /Users/davidmainanjau/.gradle/caches/transforms-3/ee4c0c67837848e15acc8ecd3102a363/transformed/core-1.3.1/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:16:9-35
+	android:label
+		INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:15:9-35
+		REJECTED from [com.github.blikoon:QRCodeScanner:0.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/b2b8265bf33a9cc7818a4a952a835929/transformed/jetified-QRCodeScanner-0.1.2/AndroidManifest.xml:13:9-41
+		REJECTED from [com.github.vipulasri:Timeline-View:1.0.6] /Users/davidmainanjau/.gradle/caches/transforms-3/657181354de75ab2b3128c16bf04a02e/transformed/jetified-Timeline-View-1.0.6/AndroidManifest.xml:13:9-41
+	android:icon
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:13:9-36
+		REJECTED from [com.github.Ilhasoft:data-binding-validator:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/1f4ba0391fa70a4696459dd5d78bcb46/transformed/jetified-data-binding-validator-2.0.0/AndroidManifest.xml:12:9-35
+		REJECTED from [com.github.blikoon:QRCodeScanner:0.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/b2b8265bf33a9cc7818a4a952a835929/transformed/jetified-QRCodeScanner-0.1.2/AndroidManifest.xml:12:9-35
+		REJECTED from [com.github.vipulasri:Timeline-View:1.0.6] /Users/davidmainanjau/.gradle/caches/transforms-3/657181354de75ab2b3128c16bf04a02e/transformed/jetified-Timeline-View-1.0.6/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:17:9-40
+	android:networkSecurityConfig
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/debug/AndroidManifest.xml:6:5-65
+	tools:replace
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/debug/AndroidManifest.xml:7:5-50
+	android:name
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:12:9-62
+provider#com.eventyay.organizer.OrgaProvider
+INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:19:9-22:40
+	android:authorities
+		INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml
+activity#com.eventyay.organizer.core.auth.AuthActivity
+INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:24:9-45:20
+	android:label
+		INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml
+meta-data#Mapbox Access Token
+INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:90:9-92:54
+	android:value
+		INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:2:1-95:12
+INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:2:1-95:12
+INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:2:1-95:12
+INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:2:1-95:12
+MERGED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:2:1-95:12
+MERGED from [com.github.Ilhasoft:data-binding-validator:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/1f4ba0391fa70a4696459dd5d78bcb46/transformed/jetified-data-binding-validator-2.0.0/AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.databinding:databinding-adapters:7.0.2] /Users/davidmainanjau/.gradle/caches/transforms-3/da6db16187c32282dc07406c1dc6d081/transformed/databinding-adapters-7.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:databinding-runtime:7.0.2] /Users/davidmainanjau/.gradle/caches/transforms-3/ba1329ec1cc451ca9ec228111f2a3fb8/transformed/databinding-runtime-7.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/ce76169aea0922d4c6155ba826b2b4a5/transformed/jetified-leakcanary-android-2.0-alpha-1/AndroidManifest.xml:17:1-32:12
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] /Users/davidmainanjau/.gradle/caches/transforms-3/163e90b14677034224893c4fe5094aa3/transformed/jetified-stetho-okhttp3-1.5.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.stetho:stetho:1.5.1] /Users/davidmainanjau/.gradle/caches/transforms-3/24f9176b7d6cc9eb48ce01d371e586d0/transformed/jetified-stetho-1.5.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.blikoon:QRCodeScanner:0.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/b2b8265bf33a9cc7818a4a952a835929/transformed/jetified-QRCodeScanner-0.1.2/AndroidManifest.xml:2:1-19:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/davidmainanjau/.gradle/caches/transforms-3/33eda08a4b0887a5cd50ca7bddb11629/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] /Users/davidmainanjau/.gradle/caches/transforms-3/c7e20ebe5147a6614630ef3ddb67b7be/transformed/jetified-mapbox-android-plugin-places-v8-0.9.0/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.android.material:material:1.2.0-beta01] /Users/davidmainanjau/.gradle/caches/transforms-3/b4de59c90d94e47556a32c00e38d7caa/transformed/material-1.2.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.1.1] /Users/davidmainanjau/.gradle/caches/transforms-3/d2b09e711c0a7fea846f00baa156ff89/transformed/preference-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/davidmainanjau/.gradle/caches/transforms-3/515b6850f83c294562678f76d9119789/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.dagger:dagger-android-support:2.21] /Users/davidmainanjau/.gradle/caches/transforms-3/9c788cae4f700032985a7ebb9c9d5fbb/transformed/jetified-dagger-android-support-2.21/AndroidManifest.xml:17:1-22:12
+MERGED from [com.mikepenz:fastadapter:4.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/15d87927a3c9bee440ea63567188354e/transformed/jetified-fastadapter-4.1.2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.Pes8:android-material-color-picker-dialog:fdb1a6001f] /Users/davidmainanjau/.gradle/caches/transforms-3/d069f51afc0189f0e91e14cc353bc579/transformed/jetified-android-material-color-picker-dialog-fdb1a6001f/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.badoualy:stepper-indicator:1.0.7] /Users/davidmainanjau/.gradle/caches/transforms-3/fc7fd191168e9b25bfac9c43da05022c/transformed/jetified-stepper-indicator-1.0.7/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/4bc7081add53ab59c72f9df380908de5/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/4b958c3bbd8c8eac0dc8632115d56daf/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.timehop.stickyheadersrecyclerview:library:0.4.3] /Users/davidmainanjau/.gradle/caches/transforms-3/db990300fc5e5e0cd5dea8de8cf8cbeb/transformed/jetified-library-0.4.3/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/8da1fd11045e15df304b98ad311ef552/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/5b50d69cc26a92d056a25efdfbea3f36/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/de9a27b34f014f2b00c1a0d4e4863718/transformed/browser-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.palette:palette:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/96c7e0146fe76f2863029c13a4ee12e6/transformed/palette-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/davidmainanjau/.gradle/caches/transforms-3/7cd1d140276481f0d996530993d9e602/transformed/jetified-timber-4.7.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mikhaellopez:circularprogressbar:3.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/9680504d0902cd247df576dbd82e84ad/transformed/jetified-circularprogressbar-3.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/cda000691c7689fd432b29b8c666b3bf/transformed/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:17:1-123:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-alpha04] /Users/davidmainanjau/.gradle/caches/transforms-3/4e1b11d5d65d44bf3cea73684389d28e/transformed/lifecycle-extensions-2.2.0-alpha04/AndroidManifest.xml:17:1-27:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:17:1-74:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/39842886a53d9de4e28270285847d283/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/77c505ee0b80a52fc2ae36ef433b2b18/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/d91471462317f589140aed305ee4c9f0/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/dfec3843795e86273500c521665a062c/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/263c5c876e55fda5829fc281c74e66ab/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/davidmainanjau/.gradle/caches/transforms-3/46bda4f3c3edc6c169a85ab38ff04884/transformed/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:2:1-16:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/davidmainanjau/.gradle/caches/transforms-3/5e65da3b6fe3f1b414c9d37078868a54/transformed/jetified-glide-4.8.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/49752b4a31149e5d85b79c7eaac27e69/transformed/jetified-mapbox-android-sdk-8.0.0/AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/davidmainanjau/.gradle/caches/transforms-3/ebb0702d03469d42b726a668add60875/transformed/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/184a4b3c22fda471a0a857a67d6deb9a/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/59c5cd5ccaf4f2bba3eb7160d186e387/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/7956653ffda14031a6af9a1fe57c3c7f/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/b7770eb30629be6758dd7792527b90de/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/6598d19a484386cfc45b284f7971b5bf/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/faa36ec4a9dceee7a161de7c28d5ca4a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/f9dc28a1ee486c7d1f411e4b36b3d118/transformed/room-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:2:1-30:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/759ffede45389a68de01fb1e92b1c2b6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:10.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2c333c59ece3d68b13b45d6a376239ec/transformed/jetified-butterknife-10.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.jakewharton:butterknife-runtime:10.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/3ec5b7852562629396b3588a1edafbcb/transformed/jetified-butterknife-runtime-10.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leaksentry:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/69effe9d85b161f03e2ee9fae0a535f1/transformed/jetified-leaksentry-2.0-alpha-1/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/e3f869f2c0630d35e58fbb57437ed1f9/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/0e2571cebfbd2e8f2dad52a6c986df2b/transformed/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.4.2] /Users/davidmainanjau/.gradle/caches/transforms-3/7cd31e8e2d6fcb4493a6ac490e4aad77/transformed/jetified-mapbox-android-gestures-0.4.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.media:media:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/ed886bbbafea973fc87d41d4a2f99137/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/66f74d64419c73366d3445d464400d17/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/fcdb2d86916b6247989889306df9a429/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] /Users/davidmainanjau/.gradle/caches/transforms-3/ee4c0c67837848e15acc8ecd3102a363/transformed/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha04] /Users/davidmainanjau/.gradle/caches/transforms-3/e8729b90739d93ff815237761216ac87/transformed/jetified-lifecycle-process-2.2.0-alpha04/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0-alpha04] /Users/davidmainanjau/.gradle/caches/transforms-3/d9506c4635e3ca628df8467ea8df34fc/transformed/jetified-lifecycle-service-2.2.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/cf0cf444fcc3bce30bd491131a895eb2/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.raizlabs.dbflow:dbflow:4.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/377357baa1343bdfc44d4114e5ea60c6/transformed/jetified-dbflow-4.1.2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.raizlabs.dbflow:dbflow-rx2:4.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/2484b993e63aa9af8d592afae2be8d83/transformed/jetified-dbflow-rx2-4.1.2/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.dagger:dagger-android:2.21] /Users/davidmainanjau/.gradle/caches/transforms-3/1641b917d76f2caa60134d9e4497903f/transformed/jetified-dagger-android-2.21/AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/davidmainanjau/.gradle/caches/transforms-3/19d98b73dc49a16e4bbf03cde80b1f6a/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
+MERGED from [com.f2prateek.rx.preferences2:rx-preferences:2.0.1] /Users/davidmainanjau/.gradle/caches/transforms-3/123efd5795605db19ebdcad7c0cc00dd/transformed/jetified-rx-preferences-2.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/915af4ebbed5519ba5aab2a4de215be6/transformed/jetified-threetenabp-1.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.vipulasri:Timeline-View:1.0.6] /Users/davidmainanjau/.gradle/caches/transforms-3/657181354de75ab2b3128c16bf04a02e/transformed/jetified-Timeline-View-1.0.6/AndroidManifest.xml:2:1-17:12
+MERGED from [jp.wasabeef:richeditor-android:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/b8fc4326155de137e229735633edbfa7/transformed/jetified-richeditor-android-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.medyo:android-about-page:1.2.5] /Users/davidmainanjau/.gradle/caches/transforms-3/876ede0a3b097147c2b10995513aed8c/transformed/jetified-android-about-page-1.2.5/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/5c03f989b0d1896c597b8347b33928f8/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.databinding:viewbinding:7.0.2] /Users/davidmainanjau/.gradle/caches/transforms-3/4536df78eba51b8b6960176fa8064542/transformed/jetified-viewbinding-7.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/f9cc1e20854ca4bb8e12770422785c94/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/13bd261eb1abdf29f4551d02c1abf900/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/davidmainanjau/.gradle/caches/transforms-3/a0c9df8eebcfc0f6e4a383f4bbe5c23a/transformed/jetified-gifdecoder-4.8.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0-alpha04] /Users/davidmainanjau/.gradle/caches/transforms-3/fabf226704f8b43f179307419a47cd00/transformed/lifecycle-livedata-2.2.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/c20979323a203bce1dc31a98d3bb1c59/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/181f103b46f414d8eadbbd62ae64a3dc/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/870aabc5c58e4d8be4cecc9b1a8c4b89/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/9d54d799916b52dfc5e2bcfbb71704f8/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/bcefb14cc29467cf03e95c46e1033f7d/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/52c97fccab38232198d657cf0e88c4a7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/ea9c25ffb8163390361d7b4f9be80cb0/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/9ae44eb5e1decfa3ba9a29c79da1d8d8/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/01370d61912988544347d3b61455b8f0/transformed/sqlite-framework-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/bbbf21e8ab09a2766adff0f67b0722f5/transformed/sqlite-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/1ca76afbf204dbd9eca4dccf9adf68a2/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.3.0] /Users/davidmainanjau/.gradle/caches/transforms-3/6fec9319f7bf059fff9e9adededb4012/transformed/jetified-mapbox-android-core-1.3.0/AndroidManifest.xml:2:1-14:12
+INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/debug/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/debug/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/debug/AndroidManifest.xml:2:1-9:12
+	package
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:4:5-37
+		INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:4:5-37
+		INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:2:1-95:12
+		INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:2:1-95:12
+		INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:6:22-62
+uses-permission#android.permission.INTERNET
+ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:7:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/49752b4a31149e5d85b79c7eaac27e69/transformed/jetified-mapbox-android-sdk-8.0.0/AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/49752b4a31149e5d85b79c7eaac27e69/transformed/jetified-mapbox-android-sdk-8.0.0/AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:8:5-79
+MERGED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/49752b4a31149e5d85b79c7eaac27e69/transformed/jetified-mapbox-android-sdk-8.0.0/AndroidManifest.xml:17:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/49752b4a31149e5d85b79c7eaac27e69/transformed/jetified-mapbox-android-sdk-8.0.0/AndroidManifest.xml:17:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:14:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:14:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.3.0] /Users/davidmainanjau/.gradle/caches/transforms-3/6fec9319f7bf059fff9e9adededb4012/transformed/jetified-mapbox-android-core-1.3.0/AndroidManifest.xml:12:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.3.0] /Users/davidmainanjau/.gradle/caches/transforms-3/6fec9319f7bf059fff9e9adededb4012/transformed/jetified-mapbox-android-core-1.3.0/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:9:22-63
+uses-sdk
+INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml
+MERGED from [com.github.Ilhasoft:data-binding-validator:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/1f4ba0391fa70a4696459dd5d78bcb46/transformed/jetified-data-binding-validator-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.Ilhasoft:data-binding-validator:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/1f4ba0391fa70a4696459dd5d78bcb46/transformed/jetified-data-binding-validator-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.databinding:databinding-adapters:7.0.2] /Users/davidmainanjau/.gradle/caches/transforms-3/da6db16187c32282dc07406c1dc6d081/transformed/databinding-adapters-7.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-adapters:7.0.2] /Users/davidmainanjau/.gradle/caches/transforms-3/da6db16187c32282dc07406c1dc6d081/transformed/databinding-adapters-7.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-runtime:7.0.2] /Users/davidmainanjau/.gradle/caches/transforms-3/ba1329ec1cc451ca9ec228111f2a3fb8/transformed/databinding-runtime-7.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-runtime:7.0.2] /Users/davidmainanjau/.gradle/caches/transforms-3/ba1329ec1cc451ca9ec228111f2a3fb8/transformed/databinding-runtime-7.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/ce76169aea0922d4c6155ba826b2b4a5/transformed/jetified-leakcanary-android-2.0-alpha-1/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/ce76169aea0922d4c6155ba826b2b4a5/transformed/jetified-leakcanary-android-2.0-alpha-1/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] /Users/davidmainanjau/.gradle/caches/transforms-3/163e90b14677034224893c4fe5094aa3/transformed/jetified-stetho-okhttp3-1.5.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] /Users/davidmainanjau/.gradle/caches/transforms-3/163e90b14677034224893c4fe5094aa3/transformed/jetified-stetho-okhttp3-1.5.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.1] /Users/davidmainanjau/.gradle/caches/transforms-3/24f9176b7d6cc9eb48ce01d371e586d0/transformed/jetified-stetho-1.5.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.1] /Users/davidmainanjau/.gradle/caches/transforms-3/24f9176b7d6cc9eb48ce01d371e586d0/transformed/jetified-stetho-1.5.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.blikoon:QRCodeScanner:0.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/b2b8265bf33a9cc7818a4a952a835929/transformed/jetified-QRCodeScanner-0.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.blikoon:QRCodeScanner:0.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/b2b8265bf33a9cc7818a4a952a835929/transformed/jetified-QRCodeScanner-0.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/davidmainanjau/.gradle/caches/transforms-3/33eda08a4b0887a5cd50ca7bddb11629/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/davidmainanjau/.gradle/caches/transforms-3/33eda08a4b0887a5cd50ca7bddb11629/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] /Users/davidmainanjau/.gradle/caches/transforms-3/c7e20ebe5147a6614630ef3ddb67b7be/transformed/jetified-mapbox-android-plugin-places-v8-0.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] /Users/davidmainanjau/.gradle/caches/transforms-3/c7e20ebe5147a6614630ef3ddb67b7be/transformed/jetified-mapbox-android-plugin-places-v8-0.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.2.0-beta01] /Users/davidmainanjau/.gradle/caches/transforms-3/b4de59c90d94e47556a32c00e38d7caa/transformed/material-1.2.0-beta01/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.0-beta01] /Users/davidmainanjau/.gradle/caches/transforms-3/b4de59c90d94e47556a32c00e38d7caa/transformed/material-1.2.0-beta01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference:1.1.1] /Users/davidmainanjau/.gradle/caches/transforms-3/d2b09e711c0a7fea846f00baa156ff89/transformed/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/davidmainanjau/.gradle/caches/transforms-3/d2b09e711c0a7fea846f00baa156ff89/transformed/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/davidmainanjau/.gradle/caches/transforms-3/515b6850f83c294562678f76d9119789/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/davidmainanjau/.gradle/caches/transforms-3/515b6850f83c294562678f76d9119789/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.dagger:dagger-android-support:2.21] /Users/davidmainanjau/.gradle/caches/transforms-3/9c788cae4f700032985a7ebb9c9d5fbb/transformed/jetified-dagger-android-support-2.21/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android-support:2.21] /Users/davidmainanjau/.gradle/caches/transforms-3/9c788cae4f700032985a7ebb9c9d5fbb/transformed/jetified-dagger-android-support-2.21/AndroidManifest.xml:20:5-44
+MERGED from [com.mikepenz:fastadapter:4.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/15d87927a3c9bee440ea63567188354e/transformed/jetified-fastadapter-4.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:fastadapter:4.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/15d87927a3c9bee440ea63567188354e/transformed/jetified-fastadapter-4.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.Pes8:android-material-color-picker-dialog:fdb1a6001f] /Users/davidmainanjau/.gradle/caches/transforms-3/d069f51afc0189f0e91e14cc353bc579/transformed/jetified-android-material-color-picker-dialog-fdb1a6001f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.Pes8:android-material-color-picker-dialog:fdb1a6001f] /Users/davidmainanjau/.gradle/caches/transforms-3/d069f51afc0189f0e91e14cc353bc579/transformed/jetified-android-material-color-picker-dialog-fdb1a6001f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.badoualy:stepper-indicator:1.0.7] /Users/davidmainanjau/.gradle/caches/transforms-3/fc7fd191168e9b25bfac9c43da05022c/transformed/jetified-stepper-indicator-1.0.7/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.badoualy:stepper-indicator:1.0.7] /Users/davidmainanjau/.gradle/caches/transforms-3/fc7fd191168e9b25bfac9c43da05022c/transformed/jetified-stepper-indicator-1.0.7/AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/4bc7081add53ab59c72f9df380908de5/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/4bc7081add53ab59c72f9df380908de5/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/4b958c3bbd8c8eac0dc8632115d56daf/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/4b958c3bbd8c8eac0dc8632115d56daf/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.timehop.stickyheadersrecyclerview:library:0.4.3] /Users/davidmainanjau/.gradle/caches/transforms-3/db990300fc5e5e0cd5dea8de8cf8cbeb/transformed/jetified-library-0.4.3/AndroidManifest.xml:8:5-10:41
+MERGED from [com.timehop.stickyheadersrecyclerview:library:0.4.3] /Users/davidmainanjau/.gradle/caches/transforms-3/db990300fc5e5e0cd5dea8de8cf8cbeb/transformed/jetified-library-0.4.3/AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/8da1fd11045e15df304b98ad311ef552/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/8da1fd11045e15df304b98ad311ef552/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/5b50d69cc26a92d056a25efdfbea3f36/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/5b50d69cc26a92d056a25efdfbea3f36/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/de9a27b34f014f2b00c1a0d4e4863718/transformed/browser-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/de9a27b34f014f2b00c1a0d4e4863718/transformed/browser-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.palette:palette:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/96c7e0146fe76f2863029c13a4ee12e6/transformed/palette-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/96c7e0146fe76f2863029c13a4ee12e6/transformed/palette-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/davidmainanjau/.gradle/caches/transforms-3/7cd1d140276481f0d996530993d9e602/transformed/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/davidmainanjau/.gradle/caches/transforms-3/7cd1d140276481f0d996530993d9e602/transformed/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [com.mikhaellopez:circularprogressbar:3.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/9680504d0902cd247df576dbd82e84ad/transformed/jetified-circularprogressbar-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mikhaellopez:circularprogressbar:3.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/9680504d0902cd247df576dbd82e84ad/transformed/jetified-circularprogressbar-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/cda000691c7689fd432b29b8c666b3bf/transformed/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/cda000691c7689fd432b29b8c666b3bf/transformed/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
+MERGED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-alpha04] /Users/davidmainanjau/.gradle/caches/transforms-3/4e1b11d5d65d44bf3cea73684389d28e/transformed/lifecycle-extensions-2.2.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-alpha04] /Users/davidmainanjau/.gradle/caches/transforms-3/4e1b11d5d65d44bf3cea73684389d28e/transformed/lifecycle-extensions-2.2.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/39842886a53d9de4e28270285847d283/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/39842886a53d9de4e28270285847d283/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/77c505ee0b80a52fc2ae36ef433b2b18/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/77c505ee0b80a52fc2ae36ef433b2b18/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/d91471462317f589140aed305ee4c9f0/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/d91471462317f589140aed305ee4c9f0/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/dfec3843795e86273500c521665a062c/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/dfec3843795e86273500c521665a062c/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/263c5c876e55fda5829fc281c74e66ab/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/263c5c876e55fda5829fc281c74e66ab/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/davidmainanjau/.gradle/caches/transforms-3/46bda4f3c3edc6c169a85ab38ff04884/transformed/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/davidmainanjau/.gradle/caches/transforms-3/46bda4f3c3edc6c169a85ab38ff04884/transformed/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/davidmainanjau/.gradle/caches/transforms-3/5e65da3b6fe3f1b414c9d37078868a54/transformed/jetified-glide-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/davidmainanjau/.gradle/caches/transforms-3/5e65da3b6fe3f1b414c9d37078868a54/transformed/jetified-glide-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/49752b4a31149e5d85b79c7eaac27e69/transformed/jetified-mapbox-android-sdk-8.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/49752b4a31149e5d85b79c7eaac27e69/transformed/jetified-mapbox-android-sdk-8.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/davidmainanjau/.gradle/caches/transforms-3/ebb0702d03469d42b726a668add60875/transformed/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/davidmainanjau/.gradle/caches/transforms-3/ebb0702d03469d42b726a668add60875/transformed/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/184a4b3c22fda471a0a857a67d6deb9a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/184a4b3c22fda471a0a857a67d6deb9a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/59c5cd5ccaf4f2bba3eb7160d186e387/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/59c5cd5ccaf4f2bba3eb7160d186e387/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/7956653ffda14031a6af9a1fe57c3c7f/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/7956653ffda14031a6af9a1fe57c3c7f/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/b7770eb30629be6758dd7792527b90de/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/b7770eb30629be6758dd7792527b90de/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/6598d19a484386cfc45b284f7971b5bf/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/6598d19a484386cfc45b284f7971b5bf/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/faa36ec4a9dceee7a161de7c28d5ca4a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/faa36ec4a9dceee7a161de7c28d5ca4a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/f9dc28a1ee486c7d1f411e4b36b3d118/transformed/room-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/f9dc28a1ee486c7d1f411e4b36b3d118/transformed/room-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/759ffede45389a68de01fb1e92b1c2b6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/759ffede45389a68de01fb1e92b1c2b6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:10.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2c333c59ece3d68b13b45d6a376239ec/transformed/jetified-butterknife-10.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2c333c59ece3d68b13b45d6a376239ec/transformed/jetified-butterknife-10.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/3ec5b7852562629396b3588a1edafbcb/transformed/jetified-butterknife-runtime-10.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/3ec5b7852562629396b3588a1edafbcb/transformed/jetified-butterknife-runtime-10.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leaksentry:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/69effe9d85b161f03e2ee9fae0a535f1/transformed/jetified-leaksentry-2.0-alpha-1/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leaksentry:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/69effe9d85b161f03e2ee9fae0a535f1/transformed/jetified-leaksentry-2.0-alpha-1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/e3f869f2c0630d35e58fbb57437ed1f9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/e3f869f2c0630d35e58fbb57437ed1f9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/0e2571cebfbd2e8f2dad52a6c986df2b/transformed/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/0e2571cebfbd2e8f2dad52a6c986df2b/transformed/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.4.2] /Users/davidmainanjau/.gradle/caches/transforms-3/7cd31e8e2d6fcb4493a6ac490e4aad77/transformed/jetified-mapbox-android-gestures-0.4.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.4.2] /Users/davidmainanjau/.gradle/caches/transforms-3/7cd31e8e2d6fcb4493a6ac490e4aad77/transformed/jetified-mapbox-android-gestures-0.4.2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.media:media:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/ed886bbbafea973fc87d41d4a2f99137/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/ed886bbbafea973fc87d41d4a2f99137/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/66f74d64419c73366d3445d464400d17/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/66f74d64419c73366d3445d464400d17/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/fcdb2d86916b6247989889306df9a429/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/fcdb2d86916b6247989889306df9a429/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] /Users/davidmainanjau/.gradle/caches/transforms-3/ee4c0c67837848e15acc8ecd3102a363/transformed/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/davidmainanjau/.gradle/caches/transforms-3/ee4c0c67837848e15acc8ecd3102a363/transformed/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha04] /Users/davidmainanjau/.gradle/caches/transforms-3/e8729b90739d93ff815237761216ac87/transformed/jetified-lifecycle-process-2.2.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha04] /Users/davidmainanjau/.gradle/caches/transforms-3/e8729b90739d93ff815237761216ac87/transformed/jetified-lifecycle-process-2.2.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0-alpha04] /Users/davidmainanjau/.gradle/caches/transforms-3/d9506c4635e3ca628df8467ea8df34fc/transformed/jetified-lifecycle-service-2.2.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0-alpha04] /Users/davidmainanjau/.gradle/caches/transforms-3/d9506c4635e3ca628df8467ea8df34fc/transformed/jetified-lifecycle-service-2.2.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/cf0cf444fcc3bce30bd491131a895eb2/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/cf0cf444fcc3bce30bd491131a895eb2/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.raizlabs.dbflow:dbflow:4.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/377357baa1343bdfc44d4114e5ea60c6/transformed/jetified-dbflow-4.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.raizlabs.dbflow:dbflow:4.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/377357baa1343bdfc44d4114e5ea60c6/transformed/jetified-dbflow-4.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.raizlabs.dbflow:dbflow-rx2:4.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/2484b993e63aa9af8d592afae2be8d83/transformed/jetified-dbflow-rx2-4.1.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.raizlabs.dbflow:dbflow-rx2:4.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/2484b993e63aa9af8d592afae2be8d83/transformed/jetified-dbflow-rx2-4.1.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.dagger:dagger-android:2.21] /Users/davidmainanjau/.gradle/caches/transforms-3/1641b917d76f2caa60134d9e4497903f/transformed/jetified-dagger-android-2.21/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.21] /Users/davidmainanjau/.gradle/caches/transforms-3/1641b917d76f2caa60134d9e4497903f/transformed/jetified-dagger-android-2.21/AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/davidmainanjau/.gradle/caches/transforms-3/19d98b73dc49a16e4bbf03cde80b1f6a/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/davidmainanjau/.gradle/caches/transforms-3/19d98b73dc49a16e4bbf03cde80b1f6a/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [com.f2prateek.rx.preferences2:rx-preferences:2.0.1] /Users/davidmainanjau/.gradle/caches/transforms-3/123efd5795605db19ebdcad7c0cc00dd/transformed/jetified-rx-preferences-2.0.1/AndroidManifest.xml:5:5-43
+MERGED from [com.f2prateek.rx.preferences2:rx-preferences:2.0.1] /Users/davidmainanjau/.gradle/caches/transforms-3/123efd5795605db19ebdcad7c0cc00dd/transformed/jetified-rx-preferences-2.0.1/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/915af4ebbed5519ba5aab2a4de215be6/transformed/jetified-threetenabp-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/915af4ebbed5519ba5aab2a4de215be6/transformed/jetified-threetenabp-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.github.vipulasri:Timeline-View:1.0.6] /Users/davidmainanjau/.gradle/caches/transforms-3/657181354de75ab2b3128c16bf04a02e/transformed/jetified-Timeline-View-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.vipulasri:Timeline-View:1.0.6] /Users/davidmainanjau/.gradle/caches/transforms-3/657181354de75ab2b3128c16bf04a02e/transformed/jetified-Timeline-View-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [jp.wasabeef:richeditor-android:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/b8fc4326155de137e229735633edbfa7/transformed/jetified-richeditor-android-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [jp.wasabeef:richeditor-android:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/b8fc4326155de137e229735633edbfa7/transformed/jetified-richeditor-android-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.medyo:android-about-page:1.2.5] /Users/davidmainanjau/.gradle/caches/transforms-3/876ede0a3b097147c2b10995513aed8c/transformed/jetified-android-about-page-1.2.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.medyo:android-about-page:1.2.5] /Users/davidmainanjau/.gradle/caches/transforms-3/876ede0a3b097147c2b10995513aed8c/transformed/jetified-android-about-page-1.2.5/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/5c03f989b0d1896c597b8347b33928f8/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/5c03f989b0d1896c597b8347b33928f8/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.0.2] /Users/davidmainanjau/.gradle/caches/transforms-3/4536df78eba51b8b6960176fa8064542/transformed/jetified-viewbinding-7.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.2] /Users/davidmainanjau/.gradle/caches/transforms-3/4536df78eba51b8b6960176fa8064542/transformed/jetified-viewbinding-7.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/f9cc1e20854ca4bb8e12770422785c94/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/f9cc1e20854ca4bb8e12770422785c94/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/13bd261eb1abdf29f4551d02c1abf900/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/13bd261eb1abdf29f4551d02c1abf900/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/davidmainanjau/.gradle/caches/transforms-3/a0c9df8eebcfc0f6e4a383f4bbe5c23a/transformed/jetified-gifdecoder-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/davidmainanjau/.gradle/caches/transforms-3/a0c9df8eebcfc0f6e4a383f4bbe5c23a/transformed/jetified-gifdecoder-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0-alpha04] /Users/davidmainanjau/.gradle/caches/transforms-3/fabf226704f8b43f179307419a47cd00/transformed/lifecycle-livedata-2.2.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0-alpha04] /Users/davidmainanjau/.gradle/caches/transforms-3/fabf226704f8b43f179307419a47cd00/transformed/lifecycle-livedata-2.2.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/c20979323a203bce1dc31a98d3bb1c59/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/c20979323a203bce1dc31a98d3bb1c59/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/181f103b46f414d8eadbbd62ae64a3dc/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/181f103b46f414d8eadbbd62ae64a3dc/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/870aabc5c58e4d8be4cecc9b1a8c4b89/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/870aabc5c58e4d8be4cecc9b1a8c4b89/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/9d54d799916b52dfc5e2bcfbb71704f8/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/davidmainanjau/.gradle/caches/transforms-3/9d54d799916b52dfc5e2bcfbb71704f8/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/bcefb14cc29467cf03e95c46e1033f7d/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/bcefb14cc29467cf03e95c46e1033f7d/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/52c97fccab38232198d657cf0e88c4a7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/52c97fccab38232198d657cf0e88c4a7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/ea9c25ffb8163390361d7b4f9be80cb0/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/ea9c25ffb8163390361d7b4f9be80cb0/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/9ae44eb5e1decfa3ba9a29c79da1d8d8/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/davidmainanjau/.gradle/caches/transforms-3/9ae44eb5e1decfa3ba9a29c79da1d8d8/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/01370d61912988544347d3b61455b8f0/transformed/sqlite-framework-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/01370d61912988544347d3b61455b8f0/transformed/sqlite-framework-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/bbbf21e8ab09a2766adff0f67b0722f5/transformed/sqlite-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/bbbf21e8ab09a2766adff0f67b0722f5/transformed/sqlite-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/1ca76afbf204dbd9eca4dccf9adf68a2/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/1ca76afbf204dbd9eca4dccf9adf68a2/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.3.0] /Users/davidmainanjau/.gradle/caches/transforms-3/6fec9319f7bf059fff9e9adededb4012/transformed/jetified-mapbox-android-core-1.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.3.0] /Users/davidmainanjau/.gradle/caches/transforms-3/6fec9319f7bf059fff9e9adededb4012/transformed/jetified-mapbox-android-core-1.3.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/debug/AndroidManifest.xml
+activity#com.eventyay.organizer.core.attendee.qrscan.ScanQRActivity
+ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:46:9-48:52
+	android:theme
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:48:13-49
+	android:name
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:47:13-86
+activity#com.eventyay.organizer.core.main.MainActivity
+ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:49:9-52:58
+	android:label
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:51:13-56
+	android:theme
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:52:13-55
+	android:name
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:50:13-73
+activity#com.eventyay.organizer.core.event.chart.ChartActivity
+ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:53:9-55:58
+	android:theme
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:55:13-55
+	android:name
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:54:13-81
+activity#com.eventyay.organizer.core.event.about.AboutEventActivity
+ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:56:9-59:58
+	android:label
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:58:13-63
+	android:theme
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:59:13-55
+	android:name
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:57:13-86
+activity#com.eventyay.organizer.core.event.create.CreateEventActivity
+ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:60:9-63:59
+	android:label
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:62:13-49
+	android:theme
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:63:13-56
+	android:name
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:61:13-88
+activity#com.eventyay.organizer.core.organizer.detail.OrganizerDetailActivity
+ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:64:9-79:20
+	android:label
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:66:13-68
+	android:theme
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:67:13-55
+	android:name
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:65:13-96
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/FRONTEND_HOST+data:pathPrefix:/verify+data:scheme:https
+ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:68:13-78:29
+action#android.intent.action.VIEW
+ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:69:17-69
+	android:name
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:69:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:71:17-76
+	android:name
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:71:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:72:17-78
+	android:name
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:72:27-75
+data
+ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:74:17-77:46
+	android:host
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:75:21-57
+	android:scheme
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:77:21-43
+	android:pathPrefix
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:76:21-49
+activity#com.eventyay.organizer.core.speaker.details.SpeakerDetailsActivity
+ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:81:9-84:52
+	android:label
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:83:13-61
+	android:theme
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:84:13-49
+	android:name
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:82:13-94
+activity#com.eventyay.organizer.ui.editor.RichEditorActivity
+ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:85:9-88:58
+	android:label
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:87:13-29
+	android:theme
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:88:13-55
+	android:name
+		ADDED from /Users/davidmainanjau/Documents/ICL/Development/Android/open-event-organizer-android/app/src/main/AndroidManifest.xml:86:13-57
+service#leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/ce76169aea0922d4c6155ba826b2b4a5/transformed/jetified-leakcanary-android-2.0-alpha-1/AndroidManifest.xml:23:9-29:19
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/ce76169aea0922d4c6155ba826b2b4a5/transformed/jetified-leakcanary-android-2.0-alpha-1/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/ce76169aea0922d4c6155ba826b2b4a5/transformed/jetified-leakcanary-android-2.0-alpha-1/AndroidManifest.xml:24:13-67
+intent-filter#action:name:leakcanary.ANALYSIS_ACTION
+ADDED from [com.squareup.leakcanary:leakcanary-android:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/ce76169aea0922d4c6155ba826b2b4a5/transformed/jetified-leakcanary-android-2.0-alpha-1/AndroidManifest.xml:26:13-28:29
+action#leakcanary.ANALYSIS_ACTION
+ADDED from [com.squareup.leakcanary:leakcanary-android:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/ce76169aea0922d4c6155ba826b2b4a5/transformed/jetified-leakcanary-android-2.0-alpha-1/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/ce76169aea0922d4c6155ba826b2b4a5/transformed/jetified-leakcanary-android-2.0-alpha-1/AndroidManifest.xml:27:25-66
+activity#com.blikoon.qrcodescanner.QrCodeActivity
+ADDED from [com.github.blikoon:QRCodeScanner:0.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/b2b8265bf33a9cc7818a4a952a835929/transformed/jetified-QRCodeScanner-0.1.2/AndroidManifest.xml:15:9-16:20
+	android:name
+		ADDED from [com.github.blikoon:QRCodeScanner:0.1.2] /Users/davidmainanjau/.gradle/caches/transforms-3/b2b8265bf33a9cc7818a4a952a835929/transformed/jetified-QRCodeScanner-0.1.2/AndroidManifest.xml:15:19-74
+activity#com.mapbox.mapboxsdk.plugins.places.autocomplete.ui.PlaceAutocompleteActivity
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] /Users/davidmainanjau/.gradle/caches/transforms-3/c7e20ebe5147a6614630ef3ddb67b7be/transformed/jetified-mapbox-android-plugin-places-v8-0.9.0/AndroidManifest.xml:10:9-14:68
+	android:windowSoftInputMode
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] /Users/davidmainanjau/.gradle/caches/transforms-3/c7e20ebe5147a6614630ef3ddb67b7be/transformed/jetified-mapbox-android-plugin-places-v8-0.9.0/AndroidManifest.xml:14:13-65
+	android:configChanges
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] /Users/davidmainanjau/.gradle/caches/transforms-3/c7e20ebe5147a6614630ef3ddb67b7be/transformed/jetified-mapbox-android-plugin-places-v8-0.9.0/AndroidManifest.xml:12:13-122
+	android:theme
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] /Users/davidmainanjau/.gradle/caches/transforms-3/c7e20ebe5147a6614630ef3ddb67b7be/transformed/jetified-mapbox-android-plugin-places-v8-0.9.0/AndroidManifest.xml:13:13-62
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] /Users/davidmainanjau/.gradle/caches/transforms-3/c7e20ebe5147a6614630ef3ddb67b7be/transformed/jetified-mapbox-android-plugin-places-v8-0.9.0/AndroidManifest.xml:11:13-105
+activity#com.mapbox.mapboxsdk.plugins.places.picker.ui.PlacePickerActivity
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] /Users/davidmainanjau/.gradle/caches/transforms-3/c7e20ebe5147a6614630ef3ddb67b7be/transformed/jetified-mapbox-android-plugin-places-v8-0.9.0/AndroidManifest.xml:15:9-17:125
+	android:configChanges
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] /Users/davidmainanjau/.gradle/caches/transforms-3/c7e20ebe5147a6614630ef3ddb67b7be/transformed/jetified-mapbox-android-plugin-places-v8-0.9.0/AndroidManifest.xml:17:13-122
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] /Users/davidmainanjau/.gradle/caches/transforms-3/c7e20ebe5147a6614630ef3ddb67b7be/transformed/jetified-mapbox-android-plugin-places-v8-0.9.0/AndroidManifest.xml:16:13-93
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:23:5-68
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:12:5-68
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:23:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:25:22-78
+provider#androidx.work.impl.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:28:9-34:35
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:30:13-68
+	android:multiprocess
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:33:13-40
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:32:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:31:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:29:13-69
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:36:9-41:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:39:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:40:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:41:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:37:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:42:9-48:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:45:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:46:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:47:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:48:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:44:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:43:13-84
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:50:9-55:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:53:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:54:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:55:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:52:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:51:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:56:9-66:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:59:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:60:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:61:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:58:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:57:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:62:13-65:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:63:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:63:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:64:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:64:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:68:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:74:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:74:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:75:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:75:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:85:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:85:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:86:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:86:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:89:9-98:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:90:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:95:13-97:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:96:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:96:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:99:9-110:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:102:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:103:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:104:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:101:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:100:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:105:13-109:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:106:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:106:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:107:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:107:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:108:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:108:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:111:9-120:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:114:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:115:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:116:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:113:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:112:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:117:13-119:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:118:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/2763e6b1c0a5b503a817f2c2cbb68d98/transformed/work-runtime-2.0.0/AndroidManifest.xml:118:25-95
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:23:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:24:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:26:22-74
+service#leakcanary.internal.AnalysisResultService
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:29:9-31:40
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:30:13-69
+provider#leakcanary.internal.LeakCanaryFileProvider
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:33:9-41:20
+	android:grantUriPermissions
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:37:13-47
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:35:13-88
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:34:13-70
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:38:13-40:66
+	android:resource
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:40:17-63
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:39:17-67
+activity#leakcanary.internal.activity.LeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:43:9-48:66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:46:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:45:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:48:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:47:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:44:13-69
+activity-alias#leakcanary.internal.activity.LeakLauncherActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:50:9-63:26
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:52:13-66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:54:13-71
+	android:targetActivity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:55:13-79
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:53:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:57:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:56:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:51:13-77
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:58:13-62:29
+action#android.intent.action.MAIN
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:59:17-69
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:59:25-66
+category#android.intent.category.LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:61:17-77
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:61:27-74
+activity#leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:65:9-71:68
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:69:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:67:13-46
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:68:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:71:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:70:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/1650fa06ef35fa9023370ae2e2cb23c3/transformed/jetified-leakcanary-android-core-2.0-alpha-1/AndroidManifest.xml:66:13-80
+meta-data#com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
+ADDED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/davidmainanjau/.gradle/caches/transforms-3/46bda4f3c3edc6c169a85ab38ff04884/transformed/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:11:9-13:43
+	android:value
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/davidmainanjau/.gradle/caches/transforms-3/46bda4f3c3edc6c169a85ab38ff04884/transformed/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:13:13-40
+	android:name
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/davidmainanjau/.gradle/caches/transforms-3/46bda4f3c3edc6c169a85ab38ff04884/transformed/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:12:13-84
+uses-feature#0x00020000
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/49752b4a31149e5d85b79c7eaac27e69/transformed/jetified-mapbox-android-sdk-8.0.0/AndroidManifest.xml:9:5-11:35
+	android:glEsVersion
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/49752b4a31149e5d85b79c7eaac27e69/transformed/jetified-mapbox-android-sdk-8.0.0/AndroidManifest.xml:10:9-41
+	android:required
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/49752b4a31149e5d85b79c7eaac27e69/transformed/jetified-mapbox-android-sdk-8.0.0/AndroidManifest.xml:11:9-32
+uses-feature#android.hardware.wifi
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/49752b4a31149e5d85b79c7eaac27e69/transformed/jetified-mapbox-android-sdk-8.0.0/AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/49752b4a31149e5d85b79c7eaac27e69/transformed/jetified-mapbox-android-sdk-8.0.0/AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/49752b4a31149e5d85b79c7eaac27e69/transformed/jetified-mapbox-android-sdk-8.0.0/AndroidManifest.xml:13:9-45
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/49752b4a31149e5d85b79c7eaac27e69/transformed/jetified-mapbox-android-sdk-8.0.0/AndroidManifest.xml:18:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:15:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] /Users/davidmainanjau/.gradle/caches/transforms-3/49752b4a31149e5d85b79c7eaac27e69/transformed/jetified-mapbox-android-sdk-8.0.0/AndroidManifest.xml:18:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:13:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.3.0] /Users/davidmainanjau/.gradle/caches/transforms-3/6fec9319f7bf059fff9e9adededb4012/transformed/jetified-mapbox-android-core-1.3.0/AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.3.0] /Users/davidmainanjau/.gradle/caches/transforms-3/6fec9319f7bf059fff9e9adededb4012/transformed/jetified-mapbox-android-core-1.3.0/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:13:22-76
+provider#com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:19:9-23:39
+	android:authorities
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:21:13-79
+	android:exported
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:22:13-37
+	android:initOrder
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:20:13-93
+service#com.mapbox.android.telemetry.crash.CrashReporterJobIntentService
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:25:9-27:72
+	android:permission
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:27:13-69
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] /Users/davidmainanjau/.gradle/caches/transforms-3/07fa073ebdfee73bdb520217cd24b42b/transformed/jetified-mapbox-android-telemetry-4.4.1/AndroidManifest.xml:26:13-92
+provider#leakcanary.internal.LeakSentryInstaller
+ADDED from [com.squareup.leakcanary:leaksentry:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/69effe9d85b161f03e2ee9fae0a535f1/transformed/jetified-leaksentry-2.0-alpha-1/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leaksentry:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/69effe9d85b161f03e2ee9fae0a535f1/transformed/jetified-leaksentry-2.0-alpha-1/AndroidManifest.xml:10:13-73
+	android:exported
+		ADDED from [com.squareup.leakcanary:leaksentry:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/69effe9d85b161f03e2ee9fae0a535f1/transformed/jetified-leaksentry-2.0-alpha-1/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leaksentry:2.0-alpha-1] /Users/davidmainanjau/.gradle/caches/transforms-3/69effe9d85b161f03e2ee9fae0a535f1/transformed/jetified-leaksentry-2.0-alpha-1/AndroidManifest.xml:9:13-67
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha04] /Users/davidmainanjau/.gradle/caches/transforms-3/e8729b90739d93ff815237761216ac87/transformed/jetified-lifecycle-process-2.2.0-alpha04/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha04] /Users/davidmainanjau/.gradle/caches/transforms-3/e8729b90739d93ff815237761216ac87/transformed/jetified-lifecycle-process-2.2.0-alpha04/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha04] /Users/davidmainanjau/.gradle/caches/transforms-3/e8729b90739d93ff815237761216ac87/transformed/jetified-lifecycle-process-2.2.0-alpha04/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha04] /Users/davidmainanjau/.gradle/caches/transforms-3/e8729b90739d93ff815237761216ac87/transformed/jetified-lifecycle-process-2.2.0-alpha04/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha04] /Users/davidmainanjau/.gradle/caches/transforms-3/e8729b90739d93ff815237761216ac87/transformed/jetified-lifecycle-process-2.2.0-alpha04/AndroidManifest.xml:26:13-79

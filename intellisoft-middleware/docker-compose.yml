@@ -1,0 +1,27 @@
+version: "3.9"
+
+# ── Extend the Open Event stack ───────────────────────────────────────────── #
+# Run this file from the intellisoft-middleware/ directory.
+# It attaches to the same Docker network as the Open Event stack so the
+# middleware can reach opev-web and opev-khsc-mock by container name.
+
+services:
+  middleware:
+    build: .
+    container_name: intellisoft-middleware
+    restart: unless-stopped
+    ports:
+      - "7000:7000"
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/app/logs          # persist log files on the host
+      - ./app:/app/app            # live-reload during development
+    networks:
+      - opev_default              # join the Open Event Docker network
+    depends_on: []                # opev-web and khsc-mock must be running first
+
+networks:
+  opev_default:
+    external: true
+    name: open-event-server_default   # name created by the Open Event docker-compose

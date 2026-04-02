@@ -1,0 +1,69 @@
+yarn run v1.22.22
+$ ember server
+DEPRECATION: `bowerDependencies` has been deprecated.
+If you still need access to the project's Bower dependencies, you will have to manually resolve the project's `bower.json` file instead. [ID: ember-cli.project.bower-dependencies]
+at getStackTrace (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/ember-cli/lib/debug/deprecate.js:99:15)
+at deprecate (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/ember-cli/lib/debug/deprecate.js:77:8)
+at Project.bowerDependencies (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/ember-cli/lib/models/project.js:412:5)
+at Class.init (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/ember-source/lib/index.js:46:33)
+at Class.superWrapper [as init] (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/core-object/lib/assign-properties.js:34:20)
+at new CoreObject (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/core-object/core-object.js:9:15)
+at new Class (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/core-object/core-object.js:21:5)
+at PackageInfo.constructAddonInstance (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/ember-cli/lib/models/package-info-cache/package-info.js:480:23)
+at PackageInfo.getAddonInstance (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/ember-cli/lib/models/package-info-cache/package-info.js:522:28)
+at /Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/ember-cli/lib/models/instantiate-addons.js:74:27
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+WARNING: Ember CLI v4.12.1 is not tested against Node v25.8.2. See "https://github.com/ember-cli/ember-cli/blob/master/docs/node-support.md" to find out which version of Node is best to use.
+DEPRECATION: `bowerDependencies` has been deprecated.
+If you still need access to the project's Bower dependencies, you will have to manually resolve the project's `bower.json` file instead. [ID: ember-cli.project.bower-dependencies]
+at getStackTrace (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/ember-cli/lib/debug/deprecate.js:99:15)
+at deprecate (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/ember-cli/lib/debug/deprecate.js:77:8)
+at Project.bowerDependencies (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/ember-cli/lib/models/project.js:412:5)
+at Class.included (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/ember-cli-shims/index.js:30:41)
+at Class.superWrapper [as included] (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/core-object/lib/assign-properties.js:34:20)
+at /Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:721:15
+at Array.forEach (<anonymous>)
+at EmberApp._notifyAddonIncluded (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:719:25)
+at new EmberApp (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:135:10)
+at module.exports (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/ember-cli-build.js:12:15)
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+- building... 
+WARNING: Detected collisions between .js and .ts files of the same name. This can result in nondeterministic build output; see https://git.io/JvIwo for more information.
+  - open-event-frontend/helpers/random.{js,ts}
+- building... [TemplateCompiler > applyPatches]
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+node:internal/crypto/hash:101
+  this[kHandle] = new _Hash(algorithm, xofLen, algorithmId, getHashCache());
+                  ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:101:19)
+    at Object.createHash (node:crypto:145:10)
+    at module.exports (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/webpack/lib/util/createHash.js:135:53)
+    at NormalModule._initBuildHash (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/webpack/lib/NormalModule.js:417:16)
+    at /Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/webpack/lib/NormalModule.js:460:10
+    at /Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/webpack/lib/NormalModule.js:358:12
+    at /Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/loader-runner/lib/LoaderRunner.js:373:3
+    at iterateNormalLoaders (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/loader-runner/lib/LoaderRunner.js:214:10)
+    at Array.<anonymous> (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/loader-runner/lib/LoaderRunner.js:205:4)
+    at Storage.finished (/Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+    at /Users/davidmainanjau/Documents/ICL/Development/Android/open-event/open-event-frontend/node_modules/graceful-fs/graceful-fs.js:123:16
+    at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read/context:68:3) {
+  opensslErrorStack: [
+    'error:03000086:digital envelope routines::initialization error',
+    'error:0308010C:digital envelope routines::unsupported'
+  ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v25.8.2
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

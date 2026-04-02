@@ -1,0 +1,66 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireObjectMapper (5.2.1):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - M13Checkbox (3.3.2)
+  - Material (3.1.8):
+    - Material/Core (= 3.1.8)
+  - Material/Core (3.1.8):
+    - Motion (~> 3.1.1)
+  - Motion (3.1.3):
+    - Motion/Core (= 3.1.3)
+  - Motion/Core (3.1.3)
+  - NVActivityIndicatorView (5.2.0):
+    - NVActivityIndicatorView/Base (= 5.2.0)
+  - NVActivityIndicatorView/Base (5.2.0)
+  - ObjectMapper (3.5.3)
+  - SwiftLint (0.63.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - AlamofireObjectMapper (~> 5.2)
+  - M13Checkbox (from `https://github.com/Marxon13/M13Checkbox.git`, branch `swift_5`)
+  - Material (from `https://github.com/CosmicMind/Material.git`, commit `ea59f7c4d72a4c3a3694042b05d4276e2ffd4e26`)
+  - NVActivityIndicatorView
+  - ObjectMapper (~> 3.4)
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireObjectMapper
+    - Motion
+    - NVActivityIndicatorView
+    - ObjectMapper
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  M13Checkbox:
+    :branch: swift_5
+    :git: https://github.com/Marxon13/M13Checkbox.git
+  Material:
+    :commit: ea59f7c4d72a4c3a3694042b05d4276e2ffd4e26
+    :git: https://github.com/CosmicMind/Material.git
+
+CHECKOUT OPTIONS:
+  M13Checkbox:
+    :commit: 71c15babadd1d3c61019b211549128ff58598a29
+    :git: https://github.com/Marxon13/M13Checkbox.git
+  Material:
+    :commit: ea59f7c4d72a4c3a3694042b05d4276e2ffd4e26
+    :git: https://github.com/CosmicMind/Material.git
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
+  M13Checkbox: 9e78ff56efaec728b8739ad08121d0b2608facf8
+  Material: e9965c31d6e77f495e82d0b0564efe8d5c11bcc3
+  Motion: cf1e060e489f6661126374d5c60dbd2ed991605c
+  NVActivityIndicatorView: fe52a6a68664c2df8991d7d9e3d86d8d19453c53
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  SwiftLint: 4fa4a9b437ccc4fc72f6c0bc98556e8e9e05bccf
+
+PODFILE CHECKSUM: 0588d416bf7d483ddf2e895943405c2f86ad9f08
+
+COCOAPODS: 1.16.2
