@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1118D79944130D6707F2D79D /* Attendee.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0F1598927420DB85E9AD98 /* Attendee.swift */; };
 		2F1E13972254502100464918 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1E13962254502100464918 /* UserService.swift */; };
 		2F1E139C2254514700464918 /* EmailAvailabilityResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1E139B2254514700464918 /* EmailAvailabilityResponse.swift */; };
 		4020D0D921B10CF9006A7967 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020D0D821B10CF9006A7967 /* SignUpViewController.swift */; };
@@ -25,13 +26,16 @@
 		4E6D8E9B224DEFF000587392 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D8E9A224DEFF000587392 /* WelcomeViewController.swift */; };
 		4E6D8E9D224DF01800587392 /* WelcomeVCMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D8E9C224DF01800587392 /* WelcomeVCMethods.swift */; };
 		4E6D8EA0224E092900587392 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D8E9F224E092900587392 /* APIClient.swift */; };
+		5186FD5D1E0D53F70DF6AEEC /* AttendeeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D334CD1422095A33A5FF5C /* AttendeeDetailViewController.swift */; };
 		7492F747D435A8B62DD42CDF /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45978A22FF3BADA35F5CD6DE /* EventDetailViewController.swift */; };
+		7E3CF9FAEEDC6F22239F4B12 /* AttendeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45604D69CA135B1F8AE67A9 /* AttendeesViewController.swift */; };
 		8BA35EC6DC4D9196E0C598CA /* Pods_EventyayOrganizerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E936F84AAB3105A13B587FAD /* Pods_EventyayOrganizerUITests.framework */; };
 		8E65C812AAE892BD83F94B51 /* EventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E259A3F1E59C66DA349116F /* EventService.swift */; };
 		9EEC45A3E2CC003541DF7BCB /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71365EB2FB6167CEE5F99DE7 /* EventsViewController.swift */; };
 		A825687F2ECB0633D31D26E7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830FCA1142D571D7B81313B1 /* Event.swift */; };
 		AEB703E42F84A1E200F80D58 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB703E32F84A1E200F80D58 /* LoginResponse.swift */; };
 		AEB703E62F84A1F600F80D58 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB703E52F84A1F600F80D58 /* KeychainHelper.swift */; };
+		B56EB54B44846EE7CDFDBEB2 /* AttendeeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104434B5A30DC179E1A67AAC /* AttendeeService.swift */; };
 		BEE49886A23120F4577C7772 /* Pods_EventyayOrganizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A334443640AE74382B74EBAC /* Pods_EventyayOrganizer.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		104434B5A30DC179E1A67AAC /* AttendeeService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AttendeeService.swift; sourceTree = "<group>"; };
 		2F1E13962254502100464918 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		2F1E139B2254514700464918 /* EmailAvailabilityResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAvailabilityResponse.swift; sourceTree = "<group>"; };
 		3B48E7757D136D9306528CD4 /* Pods-EventyayOrganizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventyayOrganizer.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,8 +83,11 @@
 		A334443640AE74382B74EBAC /* Pods_EventyayOrganizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventyayOrganizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB703E32F84A1E200F80D58 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		AEB703E52F84A1F600F80D58 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		C45604D69CA135B1F8AE67A9 /* AttendeesViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AttendeesViewController.swift; sourceTree = "<group>"; };
+		D1D334CD1422095A33A5FF5C /* AttendeeDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AttendeeDetailViewController.swift; sourceTree = "<group>"; };
 		E73F39BE5BCAC0554BF47070 /* Pods-EventyayOrganizerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventyayOrganizerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E936F84AAB3105A13B587FAD /* Pods_EventyayOrganizerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventyayOrganizerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0F1598927420DB85E9AD98 /* Attendee.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Attendee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +133,7 @@
 			children = (
 				2F1E13962254502100464918 /* UserService.swift */,
 				4E259A3F1E59C66DA349116F /* EventService.swift */,
+				104434B5A30DC179E1A67AAC /* AttendeeService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -134,6 +143,7 @@
 			children = (
 				2F1E139A2254512900464918 /* Responses */,
 				830FCA1142D571D7B81313B1 /* Event.swift */,
+				FA0F1598927420DB85E9AD98 /* Attendee.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -234,6 +244,7 @@
 				4020D0DC21B10D4B006A7967 /* SignUpController */,
 				0B0CC32CDA6B31175EEE9BF3 /* EventsController */,
 				DCECEEB559D8B0C02F5C0B14 /* EventDetailController */,
+				735F9CCC755C86346547DF60 /* AttendeesController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -274,6 +285,16 @@
 				4E6D8E9F224E092900587392 /* APIClient.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		735F9CCC755C86346547DF60 /* AttendeesController */ = {
+			isa = PBXGroup;
+			children = (
+				C45604D69CA135B1F8AE67A9 /* AttendeesViewController.swift */,
+				D1D334CD1422095A33A5FF5C /* AttendeeDetailViewController.swift */,
+			);
+			name = AttendeesController;
+			path = AttendeesController;
 			sourceTree = "<group>";
 		};
 		C90AFB930213855CFD590E3B /* Pods */ = {
@@ -520,6 +541,10 @@
 				8E65C812AAE892BD83F94B51 /* EventService.swift in Sources */,
 				9EEC45A3E2CC003541DF7BCB /* EventsViewController.swift in Sources */,
 				7492F747D435A8B62DD42CDF /* EventDetailViewController.swift in Sources */,
+				1118D79944130D6707F2D79D /* Attendee.swift in Sources */,
+				B56EB54B44846EE7CDFDBEB2 /* AttendeeService.swift in Sources */,
+				7E3CF9FAEEDC6F22239F4B12 /* AttendeesViewController.swift in Sources */,
+				5186FD5D1E0D53F70DF6AEEC /* AttendeeDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

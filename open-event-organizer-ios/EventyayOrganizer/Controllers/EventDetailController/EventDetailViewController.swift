@@ -140,14 +140,11 @@ class EventDetailViewController: UIViewController {
     // MARK: - Actions
 
     @objc private func attendeesTapped() {
-        // Attendees screen — to be implemented
-        let alert = UIAlertController(
-            title: "Coming Soon",
-            message: "Attendees list for this event will be available here.",
-            preferredStyle: .alert
-        )
-        alert.addAction(UIAlertAction(title: "OK", style: .default))
-        present(alert, animated: true)
+        guard let eventId = event?.id else { return }
+        let attendeesVC = AttendeesViewController()
+        attendeesVC.eventId = eventId
+        attendeesVC.eventName = event?.attributes?.name
+        navigationController?.pushViewController(attendeesVC, animated: true)
     }
 
     // MARK: - Helpers
