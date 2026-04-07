@@ -26,6 +26,11 @@
 		4E6D8E9D224DF01800587392 /* WelcomeVCMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D8E9C224DF01800587392 /* WelcomeVCMethods.swift */; };
 		4E6D8EA0224E092900587392 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D8E9F224E092900587392 /* APIClient.swift */; };
 		8BA35EC6DC4D9196E0C598CA /* Pods_EventyayOrganizerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E936F84AAB3105A13B587FAD /* Pods_EventyayOrganizerUITests.framework */; };
+		8E65C812AAE892BD83F94B51 /* EventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E259A3F1E59C66DA349116F /* EventService.swift */; };
+		9EEC45A3E2CC003541DF7BCB /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71365EB2FB6167CEE5F99DE7 /* EventsViewController.swift */; };
+		A825687F2ECB0633D31D26E7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830FCA1142D571D7B81313B1 /* Event.swift */; };
+		AEB703E42F84A1E200F80D58 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB703E32F84A1E200F80D58 /* LoginResponse.swift */; };
+		AEB703E62F84A1F600F80D58 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB703E52F84A1F600F80D58 /* KeychainHelper.swift */; };
 		BEE49886A23120F4577C7772 /* Pods_EventyayOrganizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A334443640AE74382B74EBAC /* Pods_EventyayOrganizer.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,13 +64,18 @@
 		407E723621AFF86E00667B83 /* LoginVCMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCMethods.swift; sourceTree = "<group>"; };
 		407E723921B0015E00667B83 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		407E723B21B0020300667B83 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4E259A3F1E59C66DA349116F /* EventService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EventService.swift; sourceTree = "<group>"; };
 		4E58CB7622609D70007BBE56 /* ControllerConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerConstants.swift; sourceTree = "<group>"; };
 		4E59065288D7D7AE05B20526 /* Pods-EventyayOrganizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventyayOrganizer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer.debug.xcconfig"; sourceTree = "<group>"; };
 		4E6D8E9A224DEFF000587392 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		4E6D8E9C224DF01800587392 /* WelcomeVCMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVCMethods.swift; sourceTree = "<group>"; };
 		4E6D8E9F224E092900587392 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		5E323D8B8C9F2A87D027E2CD /* Pods-EventyayOrganizerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventyayOrganizerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		71365EB2FB6167CEE5F99DE7 /* EventsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		830FCA1142D571D7B81313B1 /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		A334443640AE74382B74EBAC /* Pods_EventyayOrganizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventyayOrganizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB703E32F84A1E200F80D58 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		AEB703E52F84A1F600F80D58 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
 		E73F39BE5BCAC0554BF47070 /* Pods-EventyayOrganizerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventyayOrganizerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E936F84AAB3105A13B587FAD /* Pods_EventyayOrganizerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventyayOrganizerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -90,6 +100,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B0CC32CDA6B31175EEE9BF3 /* EventsController */ = {
+			isa = PBXGroup;
+			children = (
+				71365EB2FB6167CEE5F99DE7 /* EventsViewController.swift */,
+			);
+			name = EventsController;
+			path = EventsController;
+			sourceTree = "<group>";
+		};
 		0E840257897F799AB3B846D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				2F1E13962254502100464918 /* UserService.swift */,
+				4E259A3F1E59C66DA349116F /* EventService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -111,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				2F1E139A2254512900464918 /* Responses */,
+				830FCA1142D571D7B81313B1 /* Event.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -118,6 +139,7 @@
 		2F1E139A2254512900464918 /* Responses */ = {
 			isa = PBXGroup;
 			children = (
+				AEB703E32F84A1E200F80D58 /* LoginResponse.swift */,
 				2F1E139B2254514700464918 /* EmailAvailabilityResponse.swift */,
 			);
 			path = Responses;
@@ -208,6 +230,7 @@
 				4E6D8E99224DEEAA00587392 /* WelcomeController */,
 				407E723821AFF89200667B83 /* LoginController */,
 				4020D0DC21B10D4B006A7967 /* SignUpController */,
+				0B0CC32CDA6B31175EEE9BF3 /* EventsController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -224,6 +247,7 @@
 		407E723D21B0023A00667B83 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				AEB703E52F84A1F600F80D58 /* KeychainHelper.swift */,
 				407E723921B0015E00667B83 /* Colors.swift */,
 				407E723B21B0020300667B83 /* Extensions.swift */,
 				4E58CB7622609D70007BBE56 /* ControllerConstants.swift */,
@@ -370,9 +394,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -440,9 +468,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -467,9 +499,14 @@
 				4E6D8E9D224DF01800587392 /* WelcomeVCMethods.swift in Sources */,
 				2F1E13972254502100464918 /* UserService.swift in Sources */,
 				2F1E139C2254514700464918 /* EmailAvailabilityResponse.swift in Sources */,
+				AEB703E62F84A1F600F80D58 /* KeychainHelper.swift in Sources */,
 				403D71F921AAE371008D9E9F /* AppNavigationController.swift in Sources */,
 				403D71F721AAE370008D9E9F /* AppDelegate.swift in Sources */,
 				4E6D8E9B224DEFF000587392 /* WelcomeViewController.swift in Sources */,
+				AEB703E42F84A1E200F80D58 /* LoginResponse.swift in Sources */,
+				A825687F2ECB0633D31D26E7 /* Event.swift in Sources */,
+				8E65C812AAE892BD83F94B51 /* EventService.swift in Sources */,
+				9EEC45A3E2CC003541DF7BCB /* EventsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
