@@ -27,5 +27,6 @@ class LoginViewController: UIViewController {
         preparePasswordField()
         prepareToggleRadioButton()
         prepareAddressField()
+        prepareLoginButton()
     }
 }

@@ -113,4 +113,43 @@ extension LoginViewController {
     func clearFields() {
         passwordTextField.text = ""
     }
+
+    func prepareLoginButton() {
+        loginButton.addTarget(self, action: #selector(performLogin), for: .touchUpInside)
+    }
+
+    @objc func performLogin() {
+        guard isValid() else { return }
+
+        if personalServerButton.checkState != .checked,
+           let address = addressTextField.text, !address.isEmpty {
+            APIClient.shared.kBaseURL = address
+        }
+
+        toggleEditing()
+        loginButton.isEnabled = false
+
+        let email = emailTextField.text!
+        let password = passwordTextField.text!
+
+        UserService.login(email, password: password) { [weak self] response in
+            guard let self = self else { return }
+            DispatchQueue.main.async {
+                self.toggleEditing()
+                self.loginButton.isEnabled = true
+                if let errorMessage = response.error {
+                    let alert = UIAlertController(
+                        title: ControllerConstants.Login.login + " Failed",
+                        message: errorMessage,
+                        preferredStyle: .alert
+                    )
+                    alert.addAction(UIAlertAction(title: "OK", style: .default))
+                    self.present(alert, animated: true)
+                } else {
+                    self.clearFields()
+                    self.navigationController?.popToRootViewController(animated: true)
+                }
+            }
+        }
+    }
 }
