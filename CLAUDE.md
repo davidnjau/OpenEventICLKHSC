@@ -2,6 +2,26 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Project structure (Claude-specific)
+
+```
+.claude/
+├── settings.json          # Permissions and hooks
+├── rules/                 # Code style, conventions, testing, git, security
+├── commands/              # Slash commands: /health /import /sync /diff /commit
+│                          #   /lint /test /stack-up /stack-down /db-reset
+│                          #   /review-pr /checkin-debug /ios-build /android-build
+├── agents/                # Subagents: api-tester, mobile-reviewer, db-migration
+└── hooks/                 # check-secrets.sh (pre-write), log-commands.sh (post-bash)
+
+docs/                      # architecture.md · api-reference.md · khsc-integration.md
+│                          # mobile-setup.md · deployment.md
+tools/                     # health_check.sh · generate_qr.py · reset_delegates.sh
+└──                        # add_ios_files.rb (add Swift files to Xcode project)
+```
+
+**Author:** David Maina Njau (`davidnjau21@gmail.com`) — always commit as this identity.
+
 ## What this repo is
 
 A monorepo that integrates five components for the **KHSC conference management system**:

@@ -1,0 +1,76 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(docker *)",
+      "Bash(docker compose *)",
+      "Bash(curl *)",
+      "Bash(ls *)",
+      "Bash(find *)",
+      "Bash(lsof *)",
+      "Bash(open *)",
+      "Bash(stat *)",
+      "Bash(mkdir *)",
+      "Bash(cat *)",
+      "Bash(echo *)",
+      "Bash(grep *)",
+      "Bash(ruby *)",
+      "Bash(gem *)",
+      "Bash(python3 *)",
+      "Bash(poetry *)",
+      "Bash(uvicorn *)",
+      "Bash(pip *)",
+      "Bash(./gradlew *)",
+      "Bash(xcrun *)",
+      "Bash(xcodebuild *)",
+      "Bash(pod *)",
+      "Bash(swiftlint *)",
+      "Bash(~/Library/Android/sdk/platform-tools/adb *)",
+      "Bash(adb *)",
+      "Bash(yarn *)",
+      "Bash(npm *)",
+      "Bash(psql *)",
+      "Bash(sleep *)",
+      "Bash(kill *)",
+      "Bash(chmod *)",
+      "Bash(wc *)",
+      "Bash(sort *)",
+      "Bash(uniq *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(diff *)"
+    ],
+    "deny": [
+      "Bash(rm -rf /)",
+      "Bash(git push --force *)",
+      "Bash(git reset --hard *)",
+      "Bash(docker system prune *)",
+      "Bash(DROP TABLE *)",
+      "Bash(psql * -c \"DROP *\")"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/check-secrets.sh \"$CLAUDE_TOOL_INPUT_FILE_PATH\""
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/log-commands.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

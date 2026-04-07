@@ -1,5 +1,6 @@
 *.hprof
 
 # Claude Code — local rules (machine-specific, not committed)
-.claude/rules/
+
 .claude/settings.local.json
+.claude/logs/
