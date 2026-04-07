@@ -99,8 +99,18 @@ def import_delegates(event_id, uids):
         existing = TicketHolder.query.filter_by(khsc_uid=uid, event_id=event_id).first()
 
         if existing:
-            # Update email, payment and check-in state from KHSC
+            # Update all fields from KHSC
+            existing.firstname = delegate['name'].split(' ')[0]
+            existing.lastname = ' '.join(delegate['name'].split(' ')[1:])
             existing.email = delegate.get('email') or existing.email
+            existing.company = delegate.get('organization') or None
+            existing.job_title = delegate.get('category') or None
+            existing.gender = delegate.get('gender') or None
+            existing.phone = delegate.get('phone') or None
+            existing.address = delegate.get('address') or None
+            existing.city = delegate.get('city') or None
+            existing.state = delegate.get('state') or None
+            existing.country = delegate.get('country') or None
             existing.is_checked_in = delegate['is_checked_in']
             if delegate['is_checked_in'] and not existing.checkin_times:
                 existing.checkin_times = _checkin_timestamp()
@@ -117,6 +127,12 @@ def import_delegates(event_id, uids):
                 email=delegate.get('email') or None,
                 company=delegate.get('organization') or None,
                 job_title=delegate.get('category') or None,
+                gender=delegate.get('gender') or None,
+                phone=delegate.get('phone') or None,
+                address=delegate.get('address') or None,
+                city=delegate.get('city') or None,
+                state=delegate.get('state') or None,
+                country=delegate.get('country') or None,
                 event_id=event_id,
                 ticket_id=ticket.id,
                 order_id=order.id,

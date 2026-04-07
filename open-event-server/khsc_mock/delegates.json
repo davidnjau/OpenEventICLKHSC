@@ -6,10 +6,16 @@
     "email": "james.mwangi@knh.or.ke",
     "organization": "Kenyatta National Hospital",
     "category": "Doctor",
+    "gender": "Male",
+    "address": "Hospital Road, Upper Hill",
+    "city": "Nairobi",
+    "state": "Nairobi County",
+    "country": "KE",
     "payment_status": "Paid",
     "is_checked_in": true,
-    "payment_method": null,
-    "amount_paid": 10000
+    "payment_method": "M-Pesa",
+    "amount_paid": 10000,
+    "phone": "+254712345001"
   },
   {
     "unique_id": "CONF-1002",
@@ -18,10 +24,16 @@
     "email": "aisha.mohamed@moh.go.ke",
     "organization": "Ministry of Health",
     "category": "Government Official",
+    "gender": "Female",
+    "address": "Afya House, Cathedral Road",
+    "city": "Nairobi",
+    "state": "Nairobi County",
+    "country": "KE",
     "payment_status": "Paid",
     "is_checked_in": false,
-    "payment_method": null,
-    "amount_paid": 10000
+    "payment_method": "Bank Transfer",
+    "amount_paid": 10000,
+    "phone": "+254722345002"
   },
   {
     "unique_id": "CONF-1003",
@@ -30,10 +42,16 @@
     "email": "peter.otieno@uon.ac.ke",
     "organization": "University of Nairobi",
     "category": "Researcher",
+    "gender": "Male",
+    "address": "University Way",
+    "city": "Nairobi",
+    "state": "Nairobi County",
+    "country": "KE",
     "payment_status": "Paid",
     "is_checked_in": false,
-    "payment_method": null,
-    "amount_paid": 8000
+    "payment_method": "M-Pesa",
+    "amount_paid": 8000,
+    "phone": "+254733345003"
   },
   {
     "unique_id": "CONF-1004",
@@ -42,10 +60,16 @@
     "email": "grace.wanjiku@kmtc.ac.ke",
     "organization": "Kenya Medical Training College",
     "category": "Student",
+    "gender": "Female",
+    "address": "KMTC Road, Nairobi West",
+    "city": "Nairobi",
+    "state": "Nairobi County",
+    "country": "KE",
     "payment_status": "Paid",
     "is_checked_in": false,
-    "payment_method": null,
-    "amount_paid": 5000
+    "payment_method": "M-Pesa",
+    "amount_paid": 5000,
+    "phone": "+254700345004"
   },
   {
     "unique_id": "CONF-1005",
@@ -54,10 +78,16 @@
     "email": "david.kipchoge@kemsa.go.ke",
     "organization": "KEMSA",
     "category": "Pharmacist",
+    "gender": "Male",
+    "address": "Mbagathi Road",
+    "city": "Nairobi",
+    "state": "Nairobi County",
+    "country": "KE",
     "payment_status": "Unpaid",
     "is_checked_in": false,
     "payment_method": null,
-    "amount_paid": 0
+    "amount_paid": 0,
+    "phone": "+254711345005"
   },
   {
     "unique_id": "CONF-1006",
@@ -66,10 +96,16 @@
     "email": "fatuma.hassan@coastgeneral.or.ke",
     "organization": "Coast General Hospital",
     "category": "Nurse",
+    "gender": "Female",
+    "address": "Moi Avenue, Tudor",
+    "city": "Mombasa",
+    "state": "Mombasa County",
+    "country": "KE",
     "payment_status": "Paid",
     "is_checked_in": false,
-    "payment_method": null,
-    "amount_paid": 8000
+    "payment_method": "Bank Transfer",
+    "amount_paid": 8000,
+    "phone": "+254723345006"
   },
   {
     "unique_id": "CONF-1007",
@@ -78,10 +114,16 @@
     "email": "brian.ndegwa@aku.edu",
     "organization": "Aga Khan University Hospital",
     "category": "Doctor",
+    "gender": "Male",
+    "address": "3rd Parklands Avenue",
+    "city": "Nairobi",
+    "state": "Nairobi County",
+    "country": "KE",
     "payment_status": "Paid",
     "is_checked_in": true,
-    "payment_method": null,
-    "amount_paid": 10000
+    "payment_method": "Credit Card",
+    "amount_paid": 10000,
+    "phone": "+254734345007"
   },
   {
     "unique_id": "CONF-1008",
@@ -90,10 +132,16 @@
     "email": "caroline.njeri@nairobi.ac.ke",
     "organization": "University of Nairobi",
     "category": "Student",
+    "gender": "Female",
+    "address": null,
+    "city": "Nairobi",
+    "state": "Nairobi County",
+    "country": "KE",
     "payment_status": "Unpaid",
     "is_checked_in": false,
     "payment_method": null,
-    "amount_paid": 0
+    "amount_paid": 0,
+    "phone": null
   },
   {
     "unique_id": "CONF-1009",
@@ -102,10 +150,16 @@
     "email": "samuel.koech@mtrh.go.ke",
     "organization": "Moi Teaching & Referral Hospital",
     "category": "Doctor",
+    "gender": "Male",
+    "address": "Nandi Road, Eldoret",
+    "city": "Eldoret",
+    "state": "Uasin Gishu County",
+    "country": "KE",
     "payment_status": "Paid",
     "is_checked_in": false,
-    "payment_method": null,
-    "amount_paid": 10000
+    "payment_method": "M-Pesa",
+    "amount_paid": 10000,
+    "phone": "+254701345009"
   },
   {
     "unique_id": "CONF-1010",
@@ -114,10 +168,16 @@
     "email": "lydia.mutua@kemri.org",
     "organization": "KEMRI",
     "category": "Researcher",
+    "gender": "Female",
+    "address": "Mbagathi Road, Off Mbagathi Way",
+    "city": "Nairobi",
+    "state": "Nairobi County",
+    "country": "KE",
     "payment_status": "Paid",
     "is_checked_in": false,
-    "payment_method": null,
-    "amount_paid": 8000
+    "payment_method": "Bank Transfer",
+    "amount_paid": 8000,
+    "phone": "+254712345010"
   },
   {
     "unique_id": "CONF-1011",
@@ -126,10 +186,16 @@
     "email": "ahmed.omar@kenyattauniversity.ac.ke",
     "organization": "Kenyatta University Teaching Hospital",
     "category": "Doctor",
+    "gender": "Male",
+    "address": null,
+    "city": "Nairobi",
+    "state": "Nairobi County",
+    "country": "KE",
     "payment_status": "Unpaid",
     "is_checked_in": false,
     "payment_method": null,
-    "amount_paid": 0
+    "amount_paid": 0,
+    "phone": null
   },
   {
     "unique_id": "CONF-1012",
@@ -138,9 +204,15 @@
     "email": "mercy.achieng@who.int",
     "organization": "World Health Organization",
     "category": "International Delegate",
+    "gender": "Female",
+    "address": "United Nations Avenue, Gigiri",
+    "city": "Nairobi",
+    "state": "Nairobi County",
+    "country": "KE",
     "payment_status": "Paid",
     "is_checked_in": false,
-    "payment_method": null,
-    "amount_paid": 15000
+    "payment_method": "Credit Card",
+    "amount_paid": 15000,
+    "phone": "+254745345012"
   }
 ]

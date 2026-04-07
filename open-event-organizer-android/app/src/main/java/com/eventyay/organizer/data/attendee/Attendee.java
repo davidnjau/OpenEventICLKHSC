@@ -7,6 +7,7 @@ import com.eventyay.organizer.data.event.Event;
 import com.eventyay.organizer.data.order.Order;
 import com.eventyay.organizer.data.ticket.Ticket;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import com.github.jasminb.jsonapi.LongIdHandler;
@@ -32,6 +33,7 @@ import lombok.experimental.Delegate;
 @Type("attendee")
 @AllArgsConstructor
 @JsonNaming(PropertyNamingStrategy.KebabCaseStrategy.class)
+@JsonIgnoreProperties("identifier")
 @EqualsAndHashCode(callSuper = false, exclude = {"attendeeDelegate", "checking"})
 @Table(database = OrgaDatabase.class)
 @SuppressWarnings({"PMD.ExcessivePublicCount", "PMD.TooManyFields"})
