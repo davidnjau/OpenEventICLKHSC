@@ -63,4 +63,14 @@ class EventsViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 60
     }
+
+    // MARK: - UITableViewDelegate
+
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        guard !events.isEmpty else { return }
+        let detailVC = EventDetailViewController()
+        detailVC.event = events[indexPath.row]
+        navigationController?.pushViewController(detailVC, animated: true)
+    }
 }
