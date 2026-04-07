@@ -10,9 +10,12 @@ import UIKit
 class AttendeeDetailViewController: UIViewController {
 
     var attendee: AttendeeData?
+    /// Called after a successful check-in toggle so the list can refresh.
+    var onCheckInToggled: ((_ attendeeId: String, _ newState: Bool) -> Void)?
 
     private let scrollView = UIScrollView()
     private let stackView = UIStackView()
+    private var checkInButton: UIButton?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -72,6 +75,66 @@ class AttendeeDetailViewController: UIViewController {
         addRow(label: "Check-In Time", value: attrs.checkinTimes ?? "—")
         addRow(label: "Device", value: attrs.deviceNameCheckin)
         addRow(label: "Identifier", value: attrs.identifier)
+        addCheckInButton()
+    }
+
+    private func addCheckInButton() {
+        let isCheckedIn = attendee?.attributes?.isCheckedIn ?? false
+        let container = UIView()
+        container.translatesAutoresizingMaskIntoConstraints = false
+
+        let button = UIButton(type: .system)
+        button.backgroundColor = isCheckedIn ? UIColor.systemOrange : UIColor.systemGreen
+        button.setTitleColor(.white, for: .normal)
+        button.titleLabel?.font = UIFont.systemFont(ofSize: 17, weight: .semibold)
+        button.layer.cornerRadius = 8
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.addTarget(self, action: #selector(toggleCheckIn), for: .touchUpInside)
+        checkInButton = button
+        refreshCheckInButton()
+
+        container.addSubview(button)
+        NSLayoutConstraint.activate([
+            button.topAnchor.constraint(equalTo: container.topAnchor, constant: 20),
+            button.leadingAnchor.constraint(equalTo: container.leadingAnchor, constant: 16),
+            button.trailingAnchor.constraint(equalTo: container.trailingAnchor, constant: -16),
+            button.heightAnchor.constraint(equalToConstant: 50),
+            button.bottomAnchor.constraint(equalTo: container.bottomAnchor, constant: -20)
+        ])
+        stackView.addArrangedSubview(container)
+    }
+
+    private func refreshCheckInButton() {
+        let isCheckedIn = attendee?.attributes?.isCheckedIn ?? false
+        checkInButton?.setTitle(isCheckedIn ? "Check Out" : "Check In", for: .normal)
+        checkInButton?.backgroundColor = isCheckedIn ? UIColor.systemOrange : UIColor.systemGreen
+    }
+
+    @objc private func toggleCheckIn() {
+        guard let attendeeId = attendee?.id else { return }
+        let newState = !(attendee?.attributes?.isCheckedIn ?? false)
+        checkInButton?.isEnabled = false
+
+        CheckInService.toggleCheckIn(attendeeId: attendeeId, isCheckedIn: newState) { [weak self] success, error in
+            guard let self = self else { return }
+            DispatchQueue.main.async {
+                self.checkInButton?.isEnabled = true
+                if success {
+                    self.attendee?.attributes?.isCheckedIn = newState
+                    self.refreshCheckInButton()
+                    self.onCheckInToggled?(attendeeId, newState)
+                    // Refresh the check-in banner and rows
+                    self.stackView.arrangedSubviews.forEach { $0.removeFromSuperview() }
+                    self.setupRows()
+                } else {
+                    let alert = UIAlertController(title: "Error",
+                                                  message: error ?? "Unknown error",
+                                                  preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "OK", style: .default))
+                    self.present(alert, animated: true)
+                }
+            }
+        }
     }
 
     // MARK: - Row builders

@@ -22,17 +22,20 @@
 		407E723721AFF86E00667B83 /* LoginVCMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E723621AFF86E00667B83 /* LoginVCMethods.swift */; };
 		407E723A21B0015E00667B83 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E723921B0015E00667B83 /* Colors.swift */; };
 		407E723C21B0020300667B83 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E723B21B0020300667B83 /* Extensions.swift */; };
+		4670033E6163705C49EB4057 /* CheckInService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0D0DF8CA13CC4935172398 /* CheckInService.swift */; };
 		4E58CB7722609D70007BBE56 /* ControllerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E58CB7622609D70007BBE56 /* ControllerConstants.swift */; };
 		4E6D8E9B224DEFF000587392 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D8E9A224DEFF000587392 /* WelcomeViewController.swift */; };
 		4E6D8E9D224DF01800587392 /* WelcomeVCMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D8E9C224DF01800587392 /* WelcomeVCMethods.swift */; };
 		4E6D8EA0224E092900587392 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D8E9F224E092900587392 /* APIClient.swift */; };
 		5186FD5D1E0D53F70DF6AEEC /* AttendeeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D334CD1422095A33A5FF5C /* AttendeeDetailViewController.swift */; };
+		51D97E9961C39DD6F6C64E88 /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE75233D1771E49B9366455 /* QRScannerViewController.swift */; };
 		7492F747D435A8B62DD42CDF /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45978A22FF3BADA35F5CD6DE /* EventDetailViewController.swift */; };
 		7E3CF9FAEEDC6F22239F4B12 /* AttendeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45604D69CA135B1F8AE67A9 /* AttendeesViewController.swift */; };
 		8BA35EC6DC4D9196E0C598CA /* Pods_EventyayOrganizerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E936F84AAB3105A13B587FAD /* Pods_EventyayOrganizerUITests.framework */; };
 		8E65C812AAE892BD83F94B51 /* EventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E259A3F1E59C66DA349116F /* EventService.swift */; };
 		9EEC45A3E2CC003541DF7BCB /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71365EB2FB6167CEE5F99DE7 /* EventsViewController.swift */; };
 		A825687F2ECB0633D31D26E7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830FCA1142D571D7B81313B1 /* Event.swift */; };
+		AAACCB9975224793E61C4249 /* CheckInConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46931415F439B92D0FFFF72 /* CheckInConfirmViewController.swift */; };
 		AEB703E42F84A1E200F80D58 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB703E32F84A1E200F80D58 /* LoginResponse.swift */; };
 		AEB703E62F84A1F600F80D58 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB703E52F84A1F600F80D58 /* KeychainHelper.swift */; };
 		B56EB54B44846EE7CDFDBEB2 /* AttendeeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104434B5A30DC179E1A67AAC /* AttendeeService.swift */; };
@@ -50,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B0D0DF8CA13CC4935172398 /* CheckInService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CheckInService.swift; sourceTree = "<group>"; };
 		104434B5A30DC179E1A67AAC /* AttendeeService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AttendeeService.swift; sourceTree = "<group>"; };
 		2F1E13962254502100464918 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		2F1E139B2254514700464918 /* EmailAvailabilityResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAvailabilityResponse.swift; sourceTree = "<group>"; };
@@ -79,10 +83,12 @@
 		4E6D8E9F224E092900587392 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		5E323D8B8C9F2A87D027E2CD /* Pods-EventyayOrganizerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventyayOrganizerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		71365EB2FB6167CEE5F99DE7 /* EventsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		7AE75233D1771E49B9366455 /* QRScannerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
 		830FCA1142D571D7B81313B1 /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		A334443640AE74382B74EBAC /* Pods_EventyayOrganizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventyayOrganizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB703E32F84A1E200F80D58 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		AEB703E52F84A1F600F80D58 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		B46931415F439B92D0FFFF72 /* CheckInConfirmViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CheckInConfirmViewController.swift; sourceTree = "<group>"; };
 		C45604D69CA135B1F8AE67A9 /* AttendeesViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AttendeesViewController.swift; sourceTree = "<group>"; };
 		D1D334CD1422095A33A5FF5C /* AttendeeDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AttendeeDetailViewController.swift; sourceTree = "<group>"; };
 		E73F39BE5BCAC0554BF47070 /* Pods-EventyayOrganizerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventyayOrganizerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +140,7 @@
 				2F1E13962254502100464918 /* UserService.swift */,
 				4E259A3F1E59C66DA349116F /* EventService.swift */,
 				104434B5A30DC179E1A67AAC /* AttendeeService.swift */,
+				0B0D0DF8CA13CC4935172398 /* CheckInService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -245,6 +252,7 @@
 				0B0CC32CDA6B31175EEE9BF3 /* EventsController */,
 				DCECEEB559D8B0C02F5C0B14 /* EventDetailController */,
 				735F9CCC755C86346547DF60 /* AttendeesController */,
+				A20F20B2BA34866745594830 /* ScanController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -295,6 +303,16 @@
 			);
 			name = AttendeesController;
 			path = AttendeesController;
+			sourceTree = "<group>";
+		};
+		A20F20B2BA34866745594830 /* ScanController */ = {
+			isa = PBXGroup;
+			children = (
+				7AE75233D1771E49B9366455 /* QRScannerViewController.swift */,
+				B46931415F439B92D0FFFF72 /* CheckInConfirmViewController.swift */,
+			);
+			name = ScanController;
+			path = ScanController;
 			sourceTree = "<group>";
 		};
 		C90AFB930213855CFD590E3B /* Pods */ = {
@@ -545,6 +563,9 @@
 				B56EB54B44846EE7CDFDBEB2 /* AttendeeService.swift in Sources */,
 				7E3CF9FAEEDC6F22239F4B12 /* AttendeesViewController.swift in Sources */,
 				5186FD5D1E0D53F70DF6AEEC /* AttendeeDetailViewController.swift in Sources */,
+				4670033E6163705C49EB4057 /* CheckInService.swift in Sources */,
+				51D97E9961C39DD6F6C64E88 /* QRScannerViewController.swift in Sources */,
+				AAACCB9975224793E61C4249 /* CheckInConfirmViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

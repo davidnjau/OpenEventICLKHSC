@@ -5,6 +5,7 @@
 //  Copyright © 2019 FOSSAsia. All rights reserved.
 //
 
+import AVFoundation
 import UIKit
 
 class AttendeesViewController: UITableViewController {
@@ -26,6 +27,12 @@ class AttendeesViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = eventName ?? "Attendees"
+        navigationItem.rightBarButtonItem = UIBarButtonItem(
+            image: UIImage(systemName: "qrcode.viewfinder"),
+            style: .plain,
+            target: self,
+            action: #selector(scanQRTapped)
+        )
         setupSearchController()
         tableView.register(AttendeeCell.self, forCellReuseIdentifier: cellIdentifier)
         tableView.rowHeight = 72
@@ -86,7 +93,82 @@ class AttendeesViewController: UITableViewController {
         guard !source.isEmpty else { return }
         let detailVC = AttendeeDetailViewController()
         detailVC.attendee = source[indexPath.row]
+        detailVC.onCheckInToggled = { [weak self] attendeeId, newState in
+            self?.updateAttendeeLocally(id: attendeeId, isCheckedIn: newState)
+        }
         navigationController?.pushViewController(detailVC, animated: true)
+    }
+
+    // MARK: - QR Scan
+
+    @objc private func scanQRTapped() {
+        AVFoundation.AVCaptureDevice.requestAccess(for: .video) { [weak self] granted in
+            DispatchQueue.main.async {
+                guard granted else {
+                    let alert = UIAlertController(
+                        title: "Camera Access Required",
+                        message: "Enable camera access in Settings to scan QR codes.",
+                        preferredStyle: .alert
+                    )
+                    alert.addAction(UIAlertAction(title: "OK", style: .default))
+                    self?.present(alert, animated: true)
+                    return
+                }
+                let scannerVC = QRScannerViewController()
+                scannerVC.attendees = self?.attendees ?? []
+                scannerVC.eventName = self?.eventName
+                scannerVC.delegate = self
+                let nav = UINavigationController(rootViewController: scannerVC)
+                nav.modalPresentationStyle = .fullScreen
+                self?.present(nav, animated: true)
+            }
+        }
+    }
+
+    // MARK: - Local State Update
+
+    func updateAttendeeLocally(id: String, isCheckedIn: Bool) {
+        if let idx = attendees.firstIndex(where: { $0.id == id }) {
+            attendees[idx].attributes?.isCheckedIn = isCheckedIn
+        }
+        if let idx = filtered.firstIndex(where: { $0.id == id }) {
+            filtered[idx].attributes?.isCheckedIn = isCheckedIn
+        }
+        tableView.reloadData()
+    }
+}
+
+// MARK: - QRScannerDelegate
+
+extension AttendeesViewController: QRScannerDelegate {
+    func scanner(_ scanner: QRScannerViewController, didScanAttendee attendee: AttendeeData) {
+        let confirmVC = CheckInConfirmViewController()
+        confirmVC.attendee = attendee
+        confirmVC.delegate = self
+        confirmVC.modalPresentationStyle = .overFullScreen
+        confirmVC.modalTransitionStyle = .crossDissolve
+        scanner.present(confirmVC, animated: true)
+    }
+
+    func scanner(_ scanner: QRScannerViewController, didFailWithMessage message: String) {
+        // banner already shown in scanner — nothing extra needed
+    }
+}
+
+// MARK: - CheckInConfirmDelegate
+
+extension AttendeesViewController: CheckInConfirmDelegate {
+    func confirmDidDismiss(_ controller: CheckInConfirmViewController) {
+        if let attendee = controller.attendee,
+           let id = attendee.id,
+           let newState = attendee.attributes?.isCheckedIn {
+            updateAttendeeLocally(id: id, isCheckedIn: newState)
+        }
+        // Resume scanner
+        if let nav = presentedViewController as? UINavigationController,
+           let scanner = nav.topViewController as? QRScannerViewController {
+            scanner.resumeScanning()
+        }
     }
 }
 
