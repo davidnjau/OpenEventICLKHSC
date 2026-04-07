@@ -147,7 +147,8 @@ extension LoginViewController {
                     self.present(alert, animated: true)
                 } else {
                     self.clearFields()
-                    self.navigationController?.popToRootViewController(animated: true)
+                    let eventsVC = EventsViewController()
+                    self.navigationController?.pushViewController(eventsVC, animated: true)
                 }
             }
         }
